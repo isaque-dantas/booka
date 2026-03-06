@@ -3,5 +3,7 @@
 uv venv
 uv sync
 
+./.venv/bin/python setup_database.py
+
 chmod +x main.py
 sudo ln -s $(realpath main.py) /usr/local/bin/bk
